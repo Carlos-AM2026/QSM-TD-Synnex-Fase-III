@@ -4,6 +4,7 @@ body {
   font-family: roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
@@ -183,7 +184,7 @@ height: 90%;
 width: 80%;
 position: absolute;
 transform: translate(-50%, -50%);
-top: 55%;
+top: 54.4%;
 left: 50%;
 overflow: hidden;
 z-index: 1;
@@ -195,6 +196,6 @@ z-index: 1;
   width: 100%;
   background-color: rgb(11, 48, 48);
   position: absolute;
-  top: 88.4%;
+  top: 87.8%;
   z-index: 0;
 }
