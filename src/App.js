@@ -26,7 +26,7 @@ function App() {
       </NavItem>
     </Navbar>
     <Logo></Logo>
-    
+    <Map></Map>
     <Footer></Footer>
     </React.Fragment>
   );
