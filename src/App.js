@@ -10,7 +10,8 @@ import { ReactComponent as ReportsIcon } from './icons/reports.svg';
 import { ReactComponent as LogisticsIcon } from './icons/logistics.svg';
 import { ReactComponent as SalesIcon } from './icons/sales.svg'; 
 import { ReactComponent as UserIcon } from './icons/user.svg'; 
-import Synnex from'./logo.jpg';
+import Synnex from'./logo.png';
+import Maps from './Our-Locations.png';
 
 import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
@@ -25,6 +26,7 @@ function App() {
       </NavItem>
     </Navbar>
     <Logo></Logo>
+    <Map></Map>
     </React.Fragment>
   );
 }
@@ -42,6 +44,13 @@ function Logo() {
     <img className='logo' src={Synnex} alt="TD Synex logo" />
   );
 }
+
+function Map(){
+  return(
+    <img className='maps' src={Maps} alt="TD Synex Maps" />
+  );
+}
+
 
 function Navbar(props) {
   return (
