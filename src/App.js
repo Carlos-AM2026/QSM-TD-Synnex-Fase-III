@@ -27,6 +27,7 @@ function App() {
     </Navbar>
     <Logo></Logo>
     <Map></Map>
+    <Footer></Footer>
     </React.Fragment>
   );
 }
@@ -51,6 +52,11 @@ function Map(){
   );
 }
 
+function Footer(){
+  return(
+    <footer className='footer'></footer>
+  );
+}
 
 function Navbar(props) {
   return (
